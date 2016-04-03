@@ -73,8 +73,8 @@ class AliapiController extends Controller
     public function searchItems()
     {
         $lppfields = [
-            // 'categoryId' => '509',
-            'keywords' => 'card phone',
+            // 'categoryId' => '1501',
+            'keywords' => 'baby shoes',
             ];
         $array = $this->listPromotionProduct($lppfields);
         dd($array);           
