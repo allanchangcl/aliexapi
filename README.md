@@ -107,7 +107,7 @@ class AliapiController extends Controller
 ###Get Affilate Links
 
 ```php
-    public function getPromotionLinks($urls)
+    public function getPromotionLinks()
     {
         $conf = new GenericConfiguration();
         $this->aliconfig($conf);
