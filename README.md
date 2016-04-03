@@ -5,7 +5,7 @@ AliexApi is a PHP library for AliExpress Affiliate API program. You can use it t
 
 This Library based on Jan Eichhorn's [Amazon Product Advertising API](https://github.com/Exeu/apai-io). 
 
-## AliExpress Affilate Program
+## AliExpress Affiliate Program
 
 To signup and join the program, goto http://portals.aliexpress.com/, you need to apply for API Key to get access.
 
@@ -104,7 +104,7 @@ class AliapiController extends Controller
 
 ```
 
-###Get Affilate Links
+###Get Affiliate Links
 
 ```php
     public function getPromotionLinks()
@@ -126,7 +126,7 @@ class AliapiController extends Controller
 
 Example Workflow: 
 Use ListProducts to search using keywords and set what fields to return.
-Use GetLinksTo convert product urls to your affilate link.
+Use GetLinksTo convert product urls to your affiliate link.
 
 
 ##Webservice Documentation:
