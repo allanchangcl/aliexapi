@@ -59,9 +59,9 @@ class AliapiController extends Controller
     public function aliconfig($conf)
     {
         $conf
-            ->setApiKey(env('ALI_API_KEY'))
-            ->setTrackingKey(env('ALI_TRACKING_ID'))
-            ->setDigitalSign(env('ALI_DIGITAL_SIGNATURE'));
+            ->setApiKey('ALI_API_KEY')
+            ->setTrackingKey('ALI_TRACKING_ID')
+            ->setDigitalSign('ALI_DIGITAL_SIGNATURE');
             return $conf;
     }
 
@@ -115,7 +115,7 @@ class AliapiController extends Controller
 
         $listproducts = new GetLinks();
         $listproducts->setFields('url,promotionUrl');
-        $listproducts->setTrackingId(env('ALI_TRACKING_ID'));
+        $listproducts->setTrackingId('ALI_TRACKING_ID');
         $listproducts->setUrls('http://url1, http://url2');
 
         $formattedResponse = $aliexIO->runOperation($listproducts);
