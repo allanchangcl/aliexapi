@@ -1,6 +1,6 @@
 {
     "name": "clchangnet/aliexapi",
-    "description": "AliExpress Affilate API PHP Library",
+    "description": "AliExpress Affiliate API PHP Library",
     "keywords": ["Aliexpress", "Product Advertising", "SOAP", "REST", "Affiliate Products"],
     "homepage": "https://github.com/clchangnet/aliexapi",
     "type": "library",
