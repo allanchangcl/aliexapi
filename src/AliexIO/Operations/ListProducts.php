@@ -74,4 +74,9 @@ class ListProducts extends AbstractOperation
         $this->parameter['highQualityItems'] = $highQualityItems;
         return $this;
     }
+    public function setLocalCurrency($localCurrency)
+    {
+        $this->parameter['localCurrency'] = $localCurrency;
+        return $this;
+    }    
 }
