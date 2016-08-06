@@ -19,4 +19,14 @@ class GetProductDetail extends AbstractOperation
         $this->parameter['productId'] = $productId;
         return $this;
     }
+
+    /**
+     * @param string $language Lower case,total 17 languages supported(en,pt,ru,es,fr,id,it,nl,tr,vi,th,de,ko,ja,ar,pl,he)
+     * @return $this
+     */
+    public function setLanguage($language)
+    {
+        $this->parameter['language'] = $language;
+        return $this;
+    }
 }
