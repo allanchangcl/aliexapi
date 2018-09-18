@@ -1,7 +1,7 @@
 #aliexapi
 [![Build Status](https://travis-ci.org/clchangnet/aliexapi.svg?branch=master)](https://travis-ci.org/clchangnet/aliexapi) [![Latest Stable Version](https://poser.pugx.org/clchangnet/aliexapi/v/stable)](https://packagist.org/packages/clchangnet/aliexapi) [![Total Downloads](https://poser.pugx.org/clchangnet/aliexapi/downloads)](https://packagist.org/packages/clchangnet/aliexapi) 
 
-AliexApi is a PHP library for AliExpress Affiliate API program. You can use it to fetch product data. It interfaces with Aliexpress API functions such as listPromotionProduct, getPromotionProductDetail and getPromotionLinks. For more info on the API, visit [http://portals.aliexpress.com/help/help_center_API.html](http://portals.aliexpress.com/help/help_center_API.html). To see a working demo site, goto [cheap card phone](http://denwa.iopenshop.net).
+AliexApi is a PHP library for AliExpress Affiliate API program. You can use it to fetch product data. It interfaces with Aliexpress API functions such as listPromotionProduct, getPromotionProductDetail and getPromotionLinks. For more info on the API, visit [http://portals.aliexpress.com/help/help_center_API.html](http://portals.aliexpress.com/help/help_center_API.html). To see a working demo site, goto [electronic gadgets](http://kigagets.ukiki.me/).
 
 This Library based on Jan Eichhorn's [Amazon Product Advertising API](https://github.com/Exeu/apai-io). 
 
