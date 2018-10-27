@@ -5,6 +5,8 @@ AliexApi is a PHP library for AliExpress Affiliate API program. You can use it t
 
 This Library based on Jan Eichhorn's [Amazon Product Advertising API](https://github.com/Exeu/apai-io). 
 
+If you like this package, feel free to [buy me a coffee](https://www.paypal.me/aliexapi/5) ☕️
+
 ## AliExpress Affiliate Program
 
 To signup and join the program, goto http://portals.aliexpress.com/, you need to apply for API Key to get access.
