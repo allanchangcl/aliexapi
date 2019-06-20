@@ -1,23 +1,29 @@
 {
-    "name": "clchangnet/aliexapi",
-    "description": "AliExpress Affiliate API PHP Library",
-    "keywords": ["Aliexpress", "Product Advertising", "SOAP", "REST", "Affiliate Products"],
-    "homepage": "https://github.com/clchangnet/aliexapi",
-    "type": "library",
-    "license": "Apache-2.0",
-    "authors": [
-        {
-            "name": "Allan Chang",
-            "email": "allan@clchang.net"
-        }
-    ],
-    "require": {},
-    "require-dev": {
-        "phpunit/phpunit": "4.7.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "AliexApi\\": "src/AliexIO"
-        }
-    }      
+  "name": "clchangnet/aliexapi",
+  "description": "AliExpress Affiliate API PHP Library",
+  "keywords": [
+    "Aliexpress",
+    "Product Advertising",
+    "SOAP",
+    "REST",
+    "Affiliate Products"
+  ],
+  "homepage": "https://github.com/clchangnet/aliexapi",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Allan Chang",
+      "email": "allan@clchang.net"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliexApi\\": "src/AliexIO"
+    }
+  }
 }
