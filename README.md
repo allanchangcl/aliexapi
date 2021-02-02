@@ -1,3 +1,6 @@
+# THIS WILL NOT WORk WITH THE UPDATED ALIEXPRESS API -> TAOBAO OPEN PLATFORM API
+
+
 # aliexapi
 
 [![Build Status](https://travis-ci.org/clchangnet/aliexapi.svg?branch=master)](https://travis-ci.org/clchangnet/aliexapi) [![Latest Stable Version](https://poser.pugx.org/clchangnet/aliexapi/v/stable)](https://packagist.org/packages/clchangnet/aliexapi) [![Total Downloads](https://poser.pugx.org/clchangnet/aliexapi/downloads)](https://packagist.org/packages/clchangnet/aliexapi) [![License](https://poser.pugx.org/clchangnet/aliexapi/license)](https://packagist.org/packages/clchangnet/aliexapi)
